@@ -1,263 +1,285 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Full stack web developer - Creating beautiful web apps with great user experience and good price.">
-    <meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Bootstrap, Nodejs, Expressjs, MongoDB, EJS, Full stack web developer, Ibrahim Ashour">
-    <meta name="author" content="Ibrahim Ashour">
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon"sizes="180x180"href="images/apple-touch-icon.png">
-    <link rel="icon" type ="image/png" sizes ="32x32" href ="images/favicon-32x32.png" >
-    <link rel="icon"type="image/png"sizes="16x16"href="images/favicon-16x16.png">
-    <link rel="manifest"href="images/site.webmanifest">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/dd39d3c6e8.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Tajawal&display=swap" rel="stylesheet">
-    <!-- Custom Style -->
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="Full stack web developer - Creating beautiful web apps with great user experience and good price.">
+  <meta name="keywords"
+    content="HTML, CSS, JavaScript, jQuery, Bootstrap, Nodejs, Expressjs, MongoDB, EJS, Full stack web developer, Ibrahim Ashour">
+  <meta name="author" content="Ibrahim Ashour">
 
-    <title>Full stack web developer - Ibrahim Ashour</title>
-  </head>
-  <body>
-    <!-- Start move to top arrow -->
-    <div class="arrow position-fixed" id="toTop">
-      <svg width="2rem" height="2rem" viewBox="0 0 16 16" class="bi bi-file-arrow-up-fill" fill="#BD461A" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM7.5 6.707V10.5a.5.5 0 0 0 1 0V6.707l1.146 1.147a.5.5 0 0 0 .708-.708l-2-2a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L7.5 6.707z"/>
-      </svg>
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/dd39d3c6e8.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Tajawal&display=swap" rel="stylesheet">
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Full stack web developer - Ibrahim Ashour</title>
+</head>
+
+<body>
+  <!-- Start move to top arrow -->
+  <div class="arrow position-fixed" id="toTop">
+    <svg width="2rem" height="2rem" viewBox="0 0 16 16" class="bi bi-file-arrow-up-fill" fill="#BD461A"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM7.5 6.707V10.5a.5.5 0 0 0 1 0V6.707l1.146 1.147a.5.5 0 0 0 .708-.708l-2-2a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L7.5 6.707z" />
+    </svg>
+  </div>
+  <!-- End move to top arrow -->
+
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark-gray" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Ibrahim Ashour</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!-- End move to top arrow -->
+  </nav>
+  <!-- End Navbar -->
 
-    <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark-gray" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand text-white" href="#">Ibrahim Ashour</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <!-- Start Header -->
+  <header class="header text-center">
+    <div class="container">
+      <img src="images/personal-website.svg" alt="Ibrahim Ashour - full stack web developer" width="200" height="200"
+        class="mb-4">
+      <h1 class="text-white">Ibrahim Ashour</h1>
+      <div class="custom-divider mt-4 mb-4">
+        <div class="divider-line white-border mr-3"></div>
+        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="#FFF"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+        </svg>
+        <div class="divider-line white-border ml-3"></div>
       </div>
-    </nav>
-    <!-- End Navbar -->
+      <p class="text-white mt-4 medium-text">Full Stack Web Developer</p>
+    </div>
+  </header>
+  <!-- End Header -->
 
-    <!-- Start Header -->
-    <header class="header text-center">
-      <div class="container">
-        <img src="images/personal-website.svg" alt="Ibrahim Ashour - full stack web developer" width="200" height="200" class="mb-4"> 
-        <h1 class="text-white">Ibrahim Ashour</h1>
-        <div class="custom-divider mt-4 mb-4">
-          <div class="divider-line white-border mr-3"></div>
-          <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="#FFF" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-          </svg>
-          <div class="divider-line white-border ml-3"></div>
-        </div>
-        <p class="text-white mt-4 medium-text">Full Stack Web Developer</p>
+
+  <!-- Start portfolio section -->
+  <section class="text-center pt-5 pb-5" id="portfolio">
+    <div class="container">
+      <h2 class="dark-gray-text pt-3">Portfolio</h2>
+      <div class="custom-divider mt-4 mb-4">
+        <div class="divider-line mr-3 dark-gray-border"></div>
+        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="#2c3e50"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+        </svg>
+        <div class="divider-line ml-3 dark-gray-border"></div>
       </div>
-    </header>
-    <!-- End Header -->
-
-
-    <!-- Start portfolio section -->
-    <section class="text-center pt-5 pb-5" id="portfolio">
-      <div class="container">
-        <h2 class="dark-gray-text pt-3">Portfolio</h2>
-        <div class="custom-divider mt-4 mb-4">
-          <div class="divider-line mr-3 dark-gray-border"></div>
-          <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="#2c3e50" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-          </svg>
-          <div class="divider-line ml-3 dark-gray-border"></div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="project mb-4">
+            <img src="images/complex-projects.svg" alt="complex projects">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#complexProject">
+              <i class="fas fa-plus text-white fa-6x"></i>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="complexProject" tabindex="-1" aria-labelledby="complexProjectLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="complexProjectLabel">Complex Projects</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/complex-projects.svg" alt="complex projects">
+                    <p class="text-left mt-3">Tatweer prject is a freelancer platform for engineers with great user
+                      interface and great user experience.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="project mb-4">
-              <img src="images/complex-projects.svg" alt="complex projects">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#complexProject">
-                <i class="fas fa-plus text-white fa-6x"></i>
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="complexProject" tabindex="-1" aria-labelledby="complexProjectLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="complexProjectLabel">Complex Projects</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="images/complex-projects.svg" alt="complex projects">
-                      <p class="text-left mt-3">Tatweer prject is a freelancer platform for engineers with great user interface and great user experience.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="project mb-4">
+            <img src="images/landing-pages.svg" alt="Landing Pages">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#landingPages">
+              <i class="fas fa-plus text-white fa-6x"></i>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="landingPages" tabindex="-1" aria-labelledby="landingPagesLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="landingPagesLabel">Landing Pages</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/landing-pages.svg" alt="Landing Pages">
+                    <p class="text-left mt-3">Creating beautiful landing pages with great UI/UX.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="project mb-4">
-              <img src="images/landing-pages.svg" alt="Landing Pages">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#landingPages">
-                <i class="fas fa-plus text-white fa-6x"></i>
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="landingPages" tabindex="-1" aria-labelledby="landingPagesLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="landingPagesLabel">Landing Pages</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="images/landing-pages.svg" alt="Landing Pages">
-                      <p class="text-left mt-3">Creating beautiful landing pages with great UI/UX.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="project mb-4">
+            <img src="images/games.svg" alt="games">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#games">
+              <i class="fas fa-plus text-white fa-6x"></i>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="games" tabindex="-1" aria-labelledby="gamesLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="gamesLabel">Games</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/games.svg" alt="games">
+                    <p class="text-left mt-3">Creating simple web games with great logic and great UI/UX.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="project mb-4">
-              <img src="images/games.svg" alt="games">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#games">
-                <i class="fas fa-plus text-white fa-6x"></i>
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="games" tabindex="-1" aria-labelledby="gamesLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="gamesLabel">Games</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="images/games.svg" alt="games">
-                      <p class="text-left mt-3">Creating simple web games with great logic and great UI/UX.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="project mb-4">
+            <img src="images/startup-projects.svg" alt="Startup Project">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#startupProject">
+              <i class="fas fa-plus text-white fa-6x"></i>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="startupProject" tabindex="-1" aria-labelledby="startupProjectLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="startupProjectLabel">Startup Projects</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/startup-projects.svg" alt="Startup Project">
+                    <p class="text-left mt-3">Creating great design suitable for startup projects.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="project mb-4">
-              <img src="images/startup-projects.svg" alt="Startup Project">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#startupProject">
-                <i class="fas fa-plus text-white fa-6x"></i>
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="startupProject" tabindex="-1" aria-labelledby="startupProjectLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="startupProjectLabel">Startup Projects</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="images/startup-projects.svg" alt="Startup Project">
-                      <p class="text-left mt-3">Creating great design suitable for startup projects.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="project mb-4">
+            <img src="images/responsive-designs.svg" alt="Responsive Designs">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#responsiveDesign">
+              <i class="fas fa-plus text-white fa-6x"></i>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="responsiveDesign" tabindex="-1" aria-labelledby="responsiveDesignLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="responsiveDesignLabel">Responsive Designs</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/responsive-designs.svg" alt="Responsive Designs">
+                    <p class="text-left mt-3">Creating beautiful responsive designs suitable for all devices and all
+                      dimensions.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="project mb-4">
-              <img src="images/responsive-designs.svg" alt="Responsive Designs">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#responsiveDesign">
-                <i class="fas fa-plus text-white fa-6x"></i>
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="responsiveDesign" tabindex="-1" aria-labelledby="responsiveDesignLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="responsiveDesignLabel">Responsive Designs</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="images/responsive-designs.svg" alt="Responsive Designs">
-                      <p class="text-left mt-3">Creating beautiful responsive designs suitable for all devices and all dimensions.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="project mb-4">
+            <img src="images/solving-problems.svg" alt="Solving Problems">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#solvingProblems">
+              <i class="fas fa-plus text-white fa-6x"></i>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="solvingProblems" tabindex="-1" aria-labelledby="solvingProblemsLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="solvingProblemsLabel">Solving Problems</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="project mb-4">
-              <img src="images/solving-problems.svg" alt="Solving Problems">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn overlay btn-block" data-toggle="modal" data-target="#solvingProblems">
-                <i class="fas fa-plus text-white fa-6x"></i>
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="solvingProblems" tabindex="-1" aria-labelledby="solvingProblemsLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="solvingProblemsLabel">Solving Problems</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="images/solving-problems.svg" alt="Solving Problems">
-                      <p class="text-left mt-3">Solving a large number of problems to practice coding and making solid logic and algorithms.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
+                  <div class="modal-body">
+                    <img src="images/solving-problems.svg" alt="Solving Problems">
+                    <p class="text-left mt-3">Solving a large number of problems to practice coding and making solid
+                      logic and algorithms.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
@@ -265,142 +287,157 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- End portfolio section -->
+    </div>
+  </section>
+  <!-- End portfolio section -->
 
-    <!-- Start about section -->
-    <section id="about" class="text-center text-white pt-5 pb-5">
-      <div class="container">
-        <h2 class="pt-3">About</h2>
-        <div class="custom-divider mt-4 mb-4">
-          <div class="divider-line white-border mr-3"></div>
-          <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="#FFF" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-          </svg>
-          <div class="divider-line white-border ml-3"></div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="personal-profile">
-              <h3 class="mb-3 medium-text">Personal Profile</h3>
-              <p class="mb-4">I am a full-stack web developer with robust problem-solving skills and proven experience in creating and designing web apps with great user experience.</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="professional-skills">
-              <h3 class="mb-3 medium-text">Professional Skills</h3>
-              <p class="mb-4">HTML/CSS, JavaScript, bootstrap, jQuery, Node.js, Express.js, MongoDB, React.js, Git, APIs, NPM, Authentication, 
-                EJS, REST.</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="additional-skills">
-              <h3 class="mb-3 medium-text">Additional Skills</h3>
-              <p class="mb-4">
-                Additional Skills, 
-                Professional in youtube SEO, 
-                Basics in UI/UX, 
-                Pair programming, 
-                Basics in websites SEO, 
-                Basic in Video Editing, 
-                Body language, 
-                Kindness, 
-                Team leadership
-              </p>
-              
-            </div>
-          </div>
-        </div>
-        <a class="btn btn-outline-light btn-lg mb-3" href="files/cv.pdf" role="button" download>
-          <i class="fas fa-download"></i> Download CV
-        </a>
+  <!-- Start about section -->
+  <section id="about" class="text-center text-white pt-5 pb-5">
+    <div class="container">
+      <h2 class="pt-3">About</h2>
+      <div class="custom-divider mt-4 mb-4">
+        <div class="divider-line white-border mr-3"></div>
+        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="#FFF"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+        </svg>
+        <div class="divider-line white-border ml-3"></div>
       </div>
-    </section>
-    <!-- End about section -->
-
-    <!-- Start contact section -->
-    <section id="contact" class="pt-5 pb-5">
-      <div class="container">
-        <h2 class="dark-gray-text text-center pt-3">Contact Me</h2>
-        <div class="custom-divider mt-4 mb-4">
-          <div class="divider-line mr-3 dark-gray-border"></div>
-          <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="#2c3e50" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-          </svg>
-          <div class="divider-line ml-3 dark-gray-border"></div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="personal-profile">
+            <h3 class="mb-3 medium-text">Personal Profile</h3>
+            <p class="mb-4">
+              I am a professional web developer with 2 years of experience who can convert any design to a really
+              beautiful and fast website with the newest technologies and specifications.
+            </p>
+          </div>
         </div>
-        <form class="contact-form" action="mailto:ibko.business@gmail.com" method="POST" enctype="text/plain">
-          <div class="form-group">
-            <label for="nameInput">Name</label>
-            <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="nameInput" placeholder="Name">
+        <div class="col-lg-4">
+          <div class="professional-skills">
+            <h3 class="mb-3 medium-text">Professional Skills</h3>
+            <p class="mb-4">
+              HTML5, CSS3, JS/ES6, Bootstrap, Ajax, jQuery, Vue.js, Vuex, SEO, REST API's, JSON, Git & Github,
+              PHP, MySQL, Wordpress.
+            </p>
           </div>
-          <div class="form-group">
-            <label for="emailInput">Email Address</label>
-            <input type="email" name="email" class="form-control" id="emailInput" placeholder="Email Adress">
-          </div>
-          <div class="form-group">
-            <label for="PhoneNumberInput">Phone Number</label>
-            <input type="tel" name="PhoneNumber" class="form-control" id="PhoneNumberInput" placeholder="Phone Number">
-          </div>
-          <div class="form-group">
-            <label for="messageTextArea">Message</label>
-            <textarea class="form-control" name="message" id="messageTextArea" cols="30" rows="10" placeholder="Message"></textarea>
-          </div>
-          <button type="submit" class="btn btn-success btn-lg font-weight-bold">Send</button>
-        </form>
-      </div>
-    </section>
-    <!-- End contact section -->
+        </div>
+        <div class="col-lg-4">
+          <div class="additional-skills">
+            <h3 class="mb-3 medium-text">Additional Skills</h3>
+            <p class="mb-4">
+              Professional in youtube SEO,
+              Basics in UI/UX,
+              Pair programming,
+              Basic in Video Editing,
+              Body language,
+              Kindness,
+              Team leadership
+            </p>
 
-    <!-- Start footer section -->
-    <footer class="footer text-center text-white pt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="location">
-              <h2 class="mb-4 medium-text">Location</h2>
-              <p>Beylikdüzü , Istanbul, Turkey</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <h2 class="mb-4 medium-text">Email Address</h2>
-            <p class="green-text">ibko.business@gmail.com</p>
-          </div>
-          <div class="col-lg-4">
-            <div class="social-media-accounts">
-              <h2 class="mb-4 medium-text">Social Media</h2>
-              <ul class="list-inline">
-                <li class="list-inline-item mr-2 ml-2">
-                  <a href="https://www.facebook.com/IbrahimSAshour/" target="_blank" class="text-white">
-                    <i class="fab fa-facebook fa-2x"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item mr-2 ml-2">
-                  <a href="https://www.linkedin.com/in/ibrahim-ashour-5b03a6153/" target="_blank" class="text-white">
-                    <i class="fab fa-linkedin-in fa-2x"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item mr-2 ml-2">
-                  <a href="https://github.com/ebrahemko2" target="_blank" class="text-white">
-                    <i class="fab fa-github fa-2x"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
-      <footer class="copyright mt-5 pt-3 pb-3">
-        Copyright &copy; Ibrahim Ashour 2020
-      </footer>
+      <a class="btn btn-outline-light btn-lg mb-3" href="files/cv.pdf" role="button" download>
+        <i class="fas fa-download"></i> Download CV
+      </a>
+    </div>
+  </section>
+  <!-- End about section -->
+
+  <!-- Start contact section -->
+  <section id="contact" class="pt-5 pb-5">
+    <div class="container">
+      <h2 class="dark-gray-text text-center pt-3">Contact Me</h2>
+      <div class="custom-divider mt-4 mb-4">
+        <div class="divider-line mr-3 dark-gray-border"></div>
+        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="#2c3e50"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+        </svg>
+        <div class="divider-line ml-3 dark-gray-border"></div>
+      </div>
+      <form class="contact-form" action="mailto:ibko.business@gmail.com" method="POST" enctype="text/plain">
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="nameInput"
+            placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="emailInput">Email Address</label>
+          <input type="email" name="email" class="form-control" id="emailInput" placeholder="Email Adress">
+        </div>
+        <div class="form-group">
+          <label for="PhoneNumberInput">Phone Number</label>
+          <input type="tel" name="PhoneNumber" class="form-control" id="PhoneNumberInput" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="messageTextArea">Message</label>
+          <textarea class="form-control" name="message" id="messageTextArea" cols="30" rows="10"
+            placeholder="Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success btn-lg font-weight-bold">Send</button>
+      </form>
+    </div>
+  </section>
+  <!-- End contact section -->
+
+  <!-- Start footer section -->
+  <footer class="footer text-center text-white pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="location">
+            <h2 class="mb-4 medium-text">Location</h2>
+            <p>Gaza , Gaza Strip, Palestine</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <h2 class="mb-4 medium-text">Email Address</h2>
+          <p class="green-text">ibko.business@gmail.com</p>
+        </div>
+        <div class="col-lg-4">
+          <div class="social-media-accounts">
+            <h2 class="mb-4 medium-text">Social Media</h2>
+            <ul class="list-inline">
+              <li class="list-inline-item mr-2 ml-2">
+                <a href="https://www.facebook.com/IbrahimSAshour/" target="_blank" class="text-white">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-2 ml-2">
+                <a href="https://www.linkedin.com/in/ibrahim-ashour-5b03a6153/" target="_blank" class="text-white">
+                  <i class="fab fa-linkedin-in fa-2x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-2 ml-2">
+                <a href="https://github.com/ebrahemko2" target="_blank" class="text-white">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="copyright mt-5 pt-3 pb-3">
+      Copyright &copy; Ibrahim Ashour 2020
     </footer>
-    <!-- End footer section -->
+  </footer>
+  <!-- End footer section -->
 
-    <!-- jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <!-- Custom Script -->
-    <script src="scripts/main.js"></script>
-  </body>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <!-- Custom Script -->
+  <script src="scripts/main.js"></script>
+</body>
+
 </html>
