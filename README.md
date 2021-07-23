@@ -1,7 +1,7 @@
 # portfolio
 Take a look to my portfolio.
 
-## You can visit website from [here]("https://ebrahemko2.github.io/portfolio/")
+## You can visit website from [here](https://ebrahemko2.github.io/portfolio/ "Portfolio")
 
 ## Preview
-![Home Page](https://github.com/ebrahemko2/portfolio/blob/main/screenshots/screenshot.png "Portfolio")
+![Portfolio](https://github.com/ebrahemko2/portfolio/blob/main/screenshot/screenshot.png "Portfolio")
